@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Un message</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #F8F7F3;
+    color: #2F2F2F;
+    font-family: 'Lora', serif;
+    overflow: hidden;
+}
+
+.page {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    padding: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.45s ease;
+    pointer-events: none;
+}
+
+.page.active {
+    opacity: 1;
+}
+
+.text {
+    max-width: 850px;
+    font-size: clamp(18px, 2vw, 26px);
+    line-height: 1.7;
+}
+
+.arrow {
+    position: fixed;
+    right: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 35px;
+    color: #888;
+    cursor: pointer;
+    user-select: none;
+}
+
+.arrow:hover {
+    color: #333;
+}
+
+.counter {
+    position: fixed;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #999;
+    font-size: 14px;
+}
+
+#musicButton {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    border: none;
+    background: transparent;
+    color: #777;
+    cursor: pointer;
+}
+</style>
+
+</head>
+
+<body>
+
+<audio id="music" src="musique.mp3" loop></audio>
+
+<button id="musicButton">▶ Musique</button>
+
+
+<div class="page active"><div class="text">
+Ce message s’adresse à Mylène Defrance.<br><br>
+
+Si vous n’êtes pas la personne concernée, je vous demande de fermer cette page, et éventuellement de la transmettre à l’intéressée.<br><br>
+
+Merci d’avance.
+</div></div>
+
+
+<div class="page"><div class="text">
+Ne pas ouvrir avant le 18/07/2026
+</div></div>
+
+
+<div class="page"><div class="text">
+Avant de démarrer, je suis désolé si ce qui va suivre te met mal à l’aise, mais il fallait que je le fasse.<br><br>
+
+Libre à toi de lire jusqu’au bout, ou de lire tout court d’ailleurs.<br><br>
+
+Si tu ne le veux pas, arrête-toi à cette page et va directement à la 17ème page si je n’ai pas fait de la merde. Je me suis appliqué, normalement ça marche.
+</div></div>
+
+
+<div class="page"><div class="text">
+Pour être franc, je ne sais pas trop par où commencer.
+</div></div>
+
+
+<div class="page"><div class="text">
+Ça fait presque six mois aujourd’hui que j’ai fait la chose la plus stupide que j’ai faite de ma vie.
+</div></div>
+
+
+<div class="page"><div class="text">
+Avec du recul, je me rends compte que j’ai fait très méthodiquement n’importe quoi jusqu’au bout et je le sais.<br><br>
+
+Bien que ça ne justifie pas ce qu’il s’est passé, c’était une période difficile pour moi et je pense pouvoir le dire sans me tromper, pour toi aussi.<br><br>
+
+Pas nécessairement sur les mêmes plans, mais quand même.<br><br>
+
+On ne se voyait pas vraiment souvent, tu travaillais beaucoup, et à raison bien entendu. J’étais pas bien dans ma tête (ce qui, soit dit en passant, ne s’est pas amélioré par la suite) et ça a clairement joué, à mon humble avis.
+</div></div>
+
+<div class="page"><div class="text">
+Je ne comprends pas pourquoi je n’ai pas plus réagi que ça, le soir où je suis venu chez toi.<br><br>
+
+Sûrement le déni, tu étais encore là.<br><br>
+
+En fait, j’étais un peu tétanisé, j’ai eu peur.<br><br>
+
+Et la suite, on la connaît, j’ai fait comme je le faisais avec mes autres problèmes : on s’en débarrasse et on les oublie le plus vite possible.
+</div></div>
+
+
+<div class="page"><div class="text">
+Après ça, on ne se parlait plus vraiment et j’ai arrêté la fac définitivement.
+</div></div>
+
+
+<div class="page"><div class="text">
+Et puis, la semaine avant ton anniversaire chez Guillemette, je suis sorti du déni.<br><br>
+
+Je me sentais seul, et de toute évidence tu me manquais.<br><br>
+
+J’ai essayé, mais je n’ai pas réussi à passer à autre chose.<br><br>
+
+Je t’ai donc envoyé un message dont tu te souviens sûrement, qui m’a valu un retour de flamme sans ménagement.
+</div></div>
+
+
+<div class="page"><div class="text">
+Depuis, on ne se parle quasiment plus, comme s’il y avait une espèce d’accord tacite selon lequel on se côtoie car on a les mêmes amis, mais on s’ignore, voire on se tacle.<br><br>
+
+Entre nous, j’ai presque l’impression que tu ne me supportes pas, et que tu t’appliques à me le montrer.
+</div></div>
+
+
+<div class="page"><div class="text">
+Je n’ai jamais autant haï, car c’est sincèrement douloureux de se faire rembarrer, moquer et, pire en vrai : ignorer quelqu’un que l’on a aimé avant.
+</div></div>
+
+
+<div class="page"><div class="text">
+Justement, j’ai cru comprendre que tu ne me pensais pas capable de t’aimer, ou d’aimer tout court d’ailleurs.<br><br>
+
+Je pense que tu avais raison, je n’étais pas mature sur cet aspect.<br><br>
+
+C’était la première fois que j’étais vraiment amoureux et je découvrais ce que ça impliquait.<br><br>
+
+Encore une fois, je ne me cache pas derrière ça pour justifier mes conneries.
+</div></div>
+
+
+<div class="page"><div class="text">
+Maintenant, il s’est passé beaucoup de choses depuis janvier.<br><br>
+
+J’ai, comme je le disais, eu le temps de prendre beaucoup de recul sur la manière dont on s’est séparé et putain, je me dégoûte.<br><br>
+
+Mais je crois sincèrement, en tout cas j’en ai l’impression, avoir changé et mûri.<br><br>
+
+Je ne mens plus, je dis ce que j’ai (j’essaie au moins) aux personnes en qui j’ai confiance et surtout j’écoute et j’essaie de comprendre les autres et moi aussi.<br><br>
+
+Je sais que je suis bien loin d’être parfait à ce sujet, mais je pense avoir progressé.<br><br>
+
+Je me suis détendu aussi, vis-à-vis du regard des autres notamment, preuve en est que, mine de rien, je me suis bien amusé en boîte contre toutes attentes, la mienne en premier (merci de m’y avoir traîné).
+</div></div>
+
+
+<div class="page"><div class="text">
+Je me suis aussi rendu compte que j’ai été lâche, que j’ai gâché ce qu’on était en fait.<br><br>
+
+J’ai tout balancé par la fenêtre à la première complication.
+</div></div>
+
+
+<div class="page"><div class="text">
+J’ai passé le meilleur été de ma vie avec toi, et le début d’année de fac est également plein de très bons souvenirs.<br><br>
+
+La Hungry Color, le sixte, la plage avec les autres, le 14 juillet, Amiens, la balade à la Vallée du Denacre.<br><br>
+
+Et tout simplement, toutes les petites choses qui faisaient tout : les bisous pleins de dentifrice, l’odeur de ton shampoing, les soirées GoT, les quelques sorties shopping et j’en passe.<br><br>
+
+Ce sont toutes ces choses qui me font me sentir profondément stupide, car elles me manquent vraiment beaucoup, et ont été perdues par ma faute.
+</div></div>
+
+<div class="page"><div class="text">
+J’espère sincèrement que tu prendras ceci au sérieux, et que tu changeras d’avis sur la personne que je suis, ou en tout cas que tu penses que je suis, peu importe le temps que cela prendra.
+</div></div>
+
+
+<div class="page"><div class="text">
+Je sais que si tu lis ça, rien ne sera plus comme avant.<br><br>
+
+Selon ta réaction, je pense qu’il serait préférable, même si ça m’arrache le cœur de dire ça, qu’on arrête de se voir.<br><br>
+
+Ça me rend trop malheureux de te voir et de voir comment l’on se comporte l’un envers l’autre.<br><br>
+
+Sinon écris-moi.
+</div></div>
+
+
+<div class="page"><div class="text">
+C’est bon, j’ai fini.<br><br>
+
+Je m’en remets à toi, prends le temps qu’il te faudra.<br><br>
+
+Biz,<br><br>
+Armand
+</div></div>
+
+
+<div class="arrow" onclick="nextPage()">→</div>
+
+<div class="counter" id="counter">
+1 / 19
+</div>
+
+
+<script>
+
+let current = 0;
+
+const pages = document.querySelectorAll(".page");
+const counter = document.getElementById("counter");
+const music = document.getElementById("music");
+const musicButton = document.getElementById("musicButton");
+
+
+function nextPage() {
+
+    if (current < pages.length - 1) {
+
+        pages[current].classList.remove("active");
+
+        current++;
+
+        pages[current].classList.add("active");
+
+        counter.textContent = (current + 1) + " / " + pages.length;
+
+
+        // Tentative de lancement de la musique à la page 4
+        if (current === 3) {
+            music.play().catch(() => {});
+        }
+    }
+}
+
+
+// Bouton de secours si le navigateur bloque l'autoplay
+
+musicButton.addEventListener("click", function() {
+
+    music.play();
+
+    musicButton.style.display = "none";
+
+});
+
+
+// Navigation clavier ordinateur
+
+document.addEventListener("keydown", function(event) {
+
+    if (event.key === "ArrowRight") {
+        nextPage();
+    }
+
+});
+
+
+// Navigation par glissement sur téléphone
+
+let startX = 0;
+
+document.addEventListener("touchstart", function(event) {
+
+    startX = event.touches[0].clientX;
+
+});
+
+
+document.addEventListener("touchend", function(event) {
+
+    let endX = event.changedTouches[0].clientX;
+
+    if (startX - endX > 50) {
+        nextPage();
+    }
+
+});
+
+
+</script>
+
+</body>
+</html>
